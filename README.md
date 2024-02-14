@@ -1,8 +1,8 @@
 # CAPSTONE
 
 Members:
-Karam Hack
-Nicole Edoziem
-Xandria Bramble
-Erin Olivia
+- Karam Hack
+- Nicole Edoziem
+- Xandria Bramble
+- Erin Olivia
 
