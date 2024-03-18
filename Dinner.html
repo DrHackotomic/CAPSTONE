@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Capstone project</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="rating.css" rel= "stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <nav>
+    <div class="navbar">
+      <div class="dropdown">
+        <a href="#weekday" class="dropbtn">WEEKDAY</a>
+        <div class="dropdown-content" id="weekdayDropdown">
+          <a href="#breakfast">Breakfast</a>
+          <a href="#lunch">Lunch</a>
+          <a href="#dinner">Dinner</a>
+      </div>
+    </div>
+      <div class="dropdown">
+        <a href="#weekend" class="dropbtn">WEEKEND</a>
+        <div class="dropdown-content" id="weekendDropdown">
+          <a href="#brunch">Brunch</a>
+          <a href="#dinner">Dinner</a>
+        </div>
+      </div>
+        <a href="#about">ABOUT</a>
+      </div>
+  </nav>
+
+  <div class="title-text">
+    <h2>DINNER</h2>
+  </div>
+
+  <div class="rating-wrapper">
+    <span>Rice and Chicken</span>
+    <div data-foodid="1" data-foodname="Southern Fried Chicken" class="rating">
+       <span data-rating="5">&#9733;</span>
+       <span data-rating="4">&#9733;</span>
+       <span data-rating="3">&#9733;</span>
+       <span data-rating="2">&#9733;</span>
+       <span data-rating="1">&#9733;</span>
+    </div>
+
+
+  
+
+  </div>
+<body>
+  <div>
+    <div class="rating-wrapper">
+      <span> Chicken Alfredo </span>
+      <div data-foodid="2" data-foodname= "Meatloaf"class="rating">
+         <span data-rating="5">&#9733;</span>
+         <span data-rating="4">&#9733;</span>
+         <span data-rating="3">&#9733;</span>
+         <span data-rating="2">&#9733;</span>
+         <span data-rating="1">&#9733;</span>
+      </div>
+
+  </div>
+
+</body>
+
+
+  
+ <!--<button class="feedback-button"> Feedback</button>--> 
+  
+  <form action = "general-feedback.html">
+      <button class = "feedback-button">
+          Feedback
+      </button>
+  </form>
+
+  
+  <script src="script.js"></script>
+  <script src="ratingscript.js"></script>
+</body>
+
+</html>

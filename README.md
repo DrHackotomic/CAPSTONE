@@ -4,7 +4,7 @@ Members:
 - Karam Hack
 - Nicole Edoziem
 - Xandria Bramble
-- Erin Olivia
+- Erin Leigh
 
 # Topic
 ____________
