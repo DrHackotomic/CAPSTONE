@@ -1,0 +1,90 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.header-container h1 {
+    background-color: #65B5FF;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+}
+.header-container p {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    align-items: center;
+    border: 2px solid #65B5FF;
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+
+.feedback-text {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.feedback-info {
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+}
+
+.feedback-form {
+    color: black;
+    padding: 20px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  word-wrap: break-word;  
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2.5px solid #65B5FF;
+}
+
+.button1:hover {
+  background-color: #65B5FF;
+  color: white;
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+/* Home button */
+.material-symbols-outlined{
+  position: fixed; 
+  bottom: 10px;
+  left: 10px;
+  color: #65B5FF;
+  border: none;
+  background: none;
+  padding: 10px 10px;
+  cursor: pointer;
+}

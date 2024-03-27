@@ -1,0 +1,115 @@
+html{
+  margin: 0;
+  padding: 0;
+  height: 100;
+  width: 100;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  /*background: #FFD465;*/
+  background-image: url('https://www.rollins.edu/post-office/images/campus-center-entrance.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+nav{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #65B5FF;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #65B5FF;
+  color: white;
+  padding: 14px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Feedback Button */
+.feedback-button{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-color: #65B5FF;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* this is what I used for the title of the page for Lunch, Breakfeast, etc.
+*/
+.title-text{
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+
+.header p{
+  text-align: center;
+}
+
+
+/* Home button */
+.material-symbols-outlined{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: #65B5FF;
+  border: none;
+  background: none;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+
